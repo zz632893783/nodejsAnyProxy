@@ -1,0 +1,24 @@
+{
+  "name": "nodejsListenOSRequest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.1.3",
+    "node-gyp": "^10.0.1",
+    "node-mitmproxy": "^3.1.1",
+    "pcap-parser": "^0.2.1"
+  },
+  "devDependencies": {
+    "fetch": "^1.1.0",
+    "mitmproxy": "^2.1.2",
+    "node-fetch": "^3.3.2",
+    "puppeteer": "^21.6.1"
+  }
+}
