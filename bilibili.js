@@ -38,6 +38,7 @@ module.exports = {
                 if (!ready) {
                     browser = await puppeteer.launch({ headless: false });
                     page = await browser.newPage();
+                    await page.setViewport({ width: 1280, height: 720 });
                     await page.goto('https://gemini.zzgpt.asia/');
                     ready = true;
                 }
